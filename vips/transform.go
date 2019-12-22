@@ -722,6 +722,13 @@ func (b *blackboard) postProcess() error {
 		}
 	}
 
+	if b.image.HasICCProfile() {
+		err = b.image.TransformICCProfile()
+		if err != nil {
+			return err
+		}
+	}
+
 	// Apply the proper colour space
 	if b.image.IsColorSpaceSupported() && b.Interpretation != b.image.Interpretation() {
 		err = b.image.ToColorSpace(b.Interpretation)
