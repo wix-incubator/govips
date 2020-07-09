@@ -10,5 +10,5 @@ export CGO_CFLAGS_ALLOW=-Xpreprocessor
 
 for file in ./vips/*_test.go
 do
-  go test -v ${file}
+  go test -v "${file}"
 done

@@ -2,7 +2,7 @@
 First, thank you for supporting. I believe together we can make this one of the most useful Go libraries for image manipulation available.
 
 ## Have an issue, idea or question?
-Please create a [new issue](https://github.com/davidbyttow/govips/issues/new) with as much information as possible.
+Please create a [new issue](https://github.com/wix-incubator/govips/issues/new) with as much information as possible.
 
 If you're having installation problems, please include any and all output from your commandline.
 
@@ -25,7 +25,3 @@ brew install pkg-config vips
 cd pkg/vips
 ./tests.sh
 ```
-
-## Get in touch
-
-Have a question not covered here? Feel free to email me at [david.byttow@gmail.com](mailto:david.byttow@gmail.com)
