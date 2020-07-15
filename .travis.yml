@@ -2,7 +2,7 @@ language: go
 go_import_path: github.com/wix-incubator/govips
 
 sudo: required
-dist: trusty
+dist: bionic
 
 go:
   - 1.14.x
@@ -37,7 +37,6 @@ addons:
       - libpoppler-glib-dev
       - libwebp-dev
 
-# VIPS 8.3.3 requires Poppler 0.30 which is not released on Trusty.
 before_install:
   - |
     cd libvips
