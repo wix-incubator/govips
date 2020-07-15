@@ -12,7 +12,7 @@ Libvips is generally 4-8x faster than other graphics processors such as Graphics
 
 ## Requirements
 - [libvips](https://github.com/libvips/libvips) 8.10+
-- C compatible compiler such as gcc 4.6+ or clang 3.0+
+- C compatible compiler such as gcc 9.0+ or clang 9.0+
 - Go 1.14+
 
 ## Installation
@@ -44,5 +44,7 @@ In short, feel free to file issues or send along pull requests. See this [guide 
 ## Credits
 Thank you to [John Cupitt](https://github.com/jcupitt) for maintaining libvips and providing feedback on vips.
 
+This library is based on the work of [David Byttow](https://github.com/davidbyttow/govips)
+
 ## License
-MIT - David Byttow
+MIT - Wix.com
