@@ -48,3 +48,5 @@ This library is based on the work of [David Byttow](https://github.com/davidbytt
 
 ## License
 MIT - Wix.com
+
+.
